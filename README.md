@@ -8,6 +8,8 @@ Das ist unser Code den wir für das D-A-Ch Finale benutzt haben
 
 Wir haben ein Auswahlmenü implementiert das uns verschiede functionen ausführen lässt
 
+Auserdem haben wir 3 verschiedene aufsätze die wir mit dem Fast-change-system wechseln können
+
 1. Kraken 20p -> Fahrrinne wechseln 20p
 2. Sonarentdeckung 20p -> Planktonprobe 10p
 3. Programm 2: U-Boot 30p (+10p) -> Dreizack 20p (+10p) -> Anglerfisch 30p -> Meeresbodenprobe 10p -> Wasserprobe 10p -> Korallenknospenschalter 20p
