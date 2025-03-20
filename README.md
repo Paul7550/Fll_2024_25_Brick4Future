@@ -1,4 +1,4 @@
-# Code für den Robboter des Teams Brick4Future 2024/25
+# Code für den Roboter des Teams Brick4Future 2024/25
 
 ## Allgemein
 
