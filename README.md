@@ -4,7 +4,7 @@
 
 Das ist unser Code den wir für das D-A-Ch Finale benutzt haben.
 
-Mehr Informationen findest du unter [Brick4Future](Brick4Future.tech)
+Mehr Informationen findest du unter [Brick4Future](https://brick4future.tech)
 
 ## Taktik
 
