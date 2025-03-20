@@ -4,7 +4,7 @@
 
 Das ist unser Code den wir für das D-A-Ch Finale benutzt haben
 
-## Auswahlmenü
+## Taktik
 
 Wir haben ein Auswahlmenü implementiert das uns verschiede functionen ausführen lässt
 
