@@ -328,7 +328,6 @@ def uboot_Angler_BodenProbe_Korallen():
     turn(100)
     straight(600)
     stop()
-    selected = hub_menu("1", "2", "3", "4", "5")
 
 def main():
 
