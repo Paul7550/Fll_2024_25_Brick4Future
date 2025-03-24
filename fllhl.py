@@ -147,16 +147,16 @@ def shark_and_circle_and_squid():
     arm1.reset_angle(0)
     arm2.reset_angle(0)
     straight(200)
-    turn(-15)
+    turn(-17)
     straight(530)
     straight(-250)
-    rot1(120)
-    turn(-88)
+    #rot1(120)
+    turn(-95)
     straight(380)
-    turn(75)
+    turn(83)
     straight(300)
     turn(22)
-    straight(430)
+    straight(480)
     turn(-21)
     rot2(75)
     wait(500)
@@ -165,7 +165,6 @@ def shark_and_circle_and_squid():
     wait(500)
     turn(-40)
     """uboot zu gegner"""
-    
     straight(-200)
     rot1(-50)
     speed(900,1100,900,900)
@@ -220,7 +219,7 @@ def mast():
     turn(74)
     straight(190)
     turn(110)
-    straight(10)
+    straight(20)
     rot2stalled(200)
     turn(-60)
     rot2stalled(-200)
@@ -312,17 +311,16 @@ def uboot_Angler_BodenProbe_Korallen():
     turn(-11)
     straight(200)
     turn(-20)
+    speed(900,1100,900,900)
     """Bodenprobe"""
     turn(50)
     straight(210)
     rot1(40)
     straight(30)
     turn(30)
-    wait(1000)
     """Korallen"""
     rot1stalled(400, 40)
     turn(85)
-    speed(900,1100,900,900)
     straight(-840)
     rot1stalled(400, 40)
     """zurück fahren"""
@@ -330,33 +328,34 @@ def uboot_Angler_BodenProbe_Korallen():
     turn(100)
     straight(600)
     stop()
+    selected = hub_menu("1", "2", "3", "4", "5")
 
 def main():
 
     while True:
     # Make a menu to choose a letter. You can also use numbers.
-        selected = hub_menu("1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B")
+        selected = hub_menu("A", "B", "C","1","2","3","4","5")
 
     # Based on the selection, run a program.
-        if selected == "1":
+        if selected == "A":
             boot_Kraken()
-        elif selected == "2":
+        elif selected == "B":
             Waal_Bodenprobe()
-        elif selected == "3":
+        elif selected == "C":
             uboot_Angler_BodenProbe_Korallen()
-        elif selected == "4":
+        elif selected == "1":
             demo()
             mast()
-        elif selected == "5":
+        elif selected == "2":
             demo()
             ship()
-        elif selected == "6":
+        elif selected == "3":
             demo()
             korallenbaum()
-        elif selected == "7":
+        elif selected == "4":
             demo()
             taucher()
-        elif selected == "8":
+        elif selected == "5":
             demo()
             shark_and_circle_and_squid()
         
