@@ -144,36 +144,36 @@ def ship():
     stop()
 
 def shark_and_circle_and_squid():
+    # haifisch in seine heimat bringen
     arm1.reset_angle(0)
     arm2.reset_angle(0)
     straight(200)
     turn(-17)
     straight(530)
+    # abenteuerreise zu den anderen aufgaben
     straight(-250)
-    #rot1(120)
     turn(-95)
     straight(380)
     turn(83)
     straight(300)
     turn(22)
-    straight(480)
+    straight(490)
+    # sonarentdeckung kreisding
     turn(-21)
-    rot2(75)
-    wait(500)
-    turn(-35)
-    rot2(-69)
-    wait(500)
-    turn(-40)
-    """uboot zu gegner"""
+    rot2stalled(300)
+    rot2(-10)
+    speed(100, 100, 100, 100)
+    turn(-13)
+    speed(900, 1100, 900, 900)
+    rot2stalled(-400)
+    # uboot zu gegner
+    turn(-50)
     straight(-200)
-    rot1(-50)
+    rot1(-95)
     speed(900,1100,900,900)
-    straight(300)
+    straight(150)
     speed(500,1100,300,800)
-    #rot2(-35)
-    #wait(1000)
-    #rot2(35)
-    straight(-200)
+    straight(-160)
     stop()
     
 def mast():
