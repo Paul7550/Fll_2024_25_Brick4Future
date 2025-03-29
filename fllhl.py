@@ -8,7 +8,7 @@ Tutorial: https://damom73.github.io/lego-spike-tutorials/index.html
 """
 # (c) robotics team, IT department, HTL Hollabrunn
 # pylint: disable=import-error, global-statement, invalid-name
-"""
+""" 
 This is for pybricks, not the lego spike prime app!
 Installation: https://code.pybricks.com/ -> On the left side: Install pybricks firmware
 Reference manual: https://docs.pybricks.com/en/stable/
@@ -201,11 +201,11 @@ def mast():
     turn(-58)
     rot2stalled(-400) # Falls Arm vorher steckengeblieben ist
     straight(70)
-    rot1stalled(-700)
+    rot1stalled(-700, 80)
     # Taucher*in rausholen
     straight(-105)
     rot1stalled(300)
-    turn(-33.5)
+    turn(-35)
     rot2(56)
     wait(1200)
     DriveBase.reset(robot, 0, 0)
@@ -283,20 +283,20 @@ def Waal_Bodenprobe():
     straight(400)
     turn(-45)
     straight(400)
-    turn(42)
-    straight(25)
+    turn(40)
+    straight(35)
     rot2stalled(400,40)
     straight(-70)
     """Bodenprobe"""
     rot2stalled(-400,40)
-    turn(67)
-    straight(100)
+    turn(70)
+    straight(112)
     rot2stalled(400,40)
     straight(-50)
     turn(-70)
     rot2stalled(-400,40)
     turn(-20)
-    straight(-600)
+    straight(-650)
     stop()
 
 def uboot_Angler_BodenProbe_Korallen():
@@ -321,7 +321,7 @@ def uboot_Angler_BodenProbe_Korallen():
     speed(300,300,300,300)
     rot1stalled(-400, 40)
     turn(-11)
-    straight(200)
+    straight(205)
     turn(-20)
     speed(900,1100,900,900)
     """Bodenprobe"""
