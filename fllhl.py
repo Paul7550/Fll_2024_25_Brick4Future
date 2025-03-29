@@ -139,8 +139,12 @@ def ship():
     speed(900,1100,900,900)
     straight(-250)
     rot1(90)
-    turn(-160)
-    straight(450)
+    turn(38)
+    straight(240)
+    rot2stalled(400)
+    straight(-220)
+    rot2stalled(-600)
+    straight(-500)
     stop()
 
 def shark_and_circle_and_squid():
@@ -196,7 +200,7 @@ def mast():
     # Ein Haifisch fiel in den Fluss in Lego City
     turn(-58)
     rot2stalled(-400) # Falls Arm vorher steckengeblieben ist
-    straight(55)
+    straight(70)
     rot1stalled(-700)
     # Taucher*in rausholen
     straight(-105)
