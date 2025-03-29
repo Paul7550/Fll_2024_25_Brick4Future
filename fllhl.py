@@ -201,7 +201,7 @@ def mast():
     turn(-58)
     rot2stalled(-400) # Falls Arm vorher steckengeblieben ist
     straight(70)
-    rot1stalled(-700, 80)
+    rot1stalled(-700, 50)
     # Taucher*in rausholen
     straight(-105)
     rot1stalled(300)
@@ -307,28 +307,28 @@ def uboot_Angler_BodenProbe_Korallen():
     straight(300)
     rot1(-104)
     """bei uns 435 auf den wert anpassen"""
-    straight(435)
+    straight(415)
     """standart 0"""
-    straight(-0)
+    straight(-20)
     wait(900)
     """Angler"""
     straight(-85)
     rot1stalled(400, 40)
     turn(-100)
-    straight(290)
-    turn(100)
+    straight(300)
+    turn(110)
     straight(-170)
     speed(300,300,300,300)
     rot1stalled(-400, 40)
-    turn(-11)
-    straight(205)
+    turn(-15)
+    straight(210)
     turn(-20)
     speed(900,1100,900,900)
     """Bodenprobe"""
     turn(50)
     straight(210)
     rot1(40)
-    straight(30)
+    straight(40)
     turn(30)
     """Korallen"""
     rot1stalled(400, 40)
