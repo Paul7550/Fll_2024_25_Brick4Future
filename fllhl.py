@@ -343,10 +343,11 @@ def uboot_Angler_BodenProbe_Korallen():
     stop()
 
 def main():
+    menu = ["A", "B", "C","1","2","3","4","5"]
 
     while True:
     # Make a menu to choose a letter. You can also use numbers.
-        selected = hub_menu("A", "B", "C","1","2","3","4","5")
+        selected = hub_menu(*menu)
 
     # Based on the selection, run a program.
         if selected == "A":
@@ -370,7 +371,9 @@ def main():
         elif selected == "5":
             demo()
             shark_and_circle_and_squid()
-        
-        
+
+        # advance menu
+        next_index = (menu.index(selected) + 1) % len(menu)
+        menu = menu[next_index:] + menu[:next_index]
 
 main()
