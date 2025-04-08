@@ -11,11 +11,17 @@ Mehr Informationen findest du unter [Brick4Future](https://brick4future.tech)
 ### Anleitung:
 
 **`rightTrigger`** lässt dich gerade vorwärts fahren.
+
 **`rightTrigger + joystickLeft`** lässt dich gerade vorwärts fahren wenn du ihn nach oben schiebst und nach unten wenn du ihn nach unten ziehst.
+
 **`[Y] + joystickLeft`** lässt dich den Roboter drehen.
+
 **`[LB] + joystickLeft`** lässt dich den linken Arm Motor drehen.
+
 **`[RB] + joystickLeft`** lässt dich den rechten Arm Motor drehen.
+
 **`[X]`** lässt dich den linken Arm Motor so lange drehen bis er gegen einen Wiederstand stößt.
+
 **`[B]`** lässt dich den rechten Arm Motor so lange drehen bis er gegen einen Wiederstand stößt.
 
 ## Taktik
