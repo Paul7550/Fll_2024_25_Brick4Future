@@ -1,28 +1,10 @@
-# (c) robotics team, IT department, HTL Hollabrunn
-# pylint: disable=import-error, global-statement, invalid-name
-"""
-This is for pybricks, not the lego spike prime app!
-Installation: https://code.pybricks.com/ -> On the left side: Install pybricks firmware
-Reference manual: https://docs.pybricks.com/en/stable/
-Tutorial: https://damom73.github.io/lego-spike-tutorials/index.html
-"""
-# (c) robotics team, IT department, HTL Hollabrunn
-# pylint: disable=import-error, global-statement, invalid-name
-""" 
-This is for pybricks, not the lego spike prime app!
-Installation: https://code.pybricks.com/ -> On the left side: Install pybricks firmware
-Reference manual: https://docs.pybricks.com/en/stable/
-Tutorial: https://damom73.github.io/lego-spike-tutorials/index.html
-"""
 from pybricks.hubs import PrimeHub
 from pybricks.pupdevices import Motor
 from pybricks.parameters import Axis, Color, Direction, Port, Stop
 from pybricks.robotics import DriveBase
 from pybricks.tools import wait
 from pybricks.tools import hub_menu
-from pybricks.iodevices import XboxController
 
-xbox = XboxController
 hub = None
 robot = None
 arm1 = None
@@ -79,8 +61,15 @@ def rot1(angle):
     """Turn arm1 by realtive angle. Negative angle turns counterclockwise"""
     arm1.run_angle(500, angle)
 
+def rot2(angle):
+    """Turn arm2 by realtive angle. Negative angle turns counterclockwise"""
+    arm2.run_angle(500, angle)
+
 def rotspeed1(angle):
-    arm1.run_angle(1000, angle)    
+    arm1.run_angle(1000, angle)
+
+def rotspeed2(angle):
+    arm2.run_angle(1000, angle)    
 
 def rotslow1(angle):
     arm1.run_angle(420, angle)
@@ -88,9 +77,7 @@ def rotslow1(angle):
 def rotslow2(angle):
     arm2.run_angle(60, angle)
 
-def rot2(angle):
-    """Turn arm2 by realtive angle. Negative angle turns counterclockwise"""
-    arm2.run_angle(500, angle)
+
 
 def rot1stalled(speed, duty_limit = 40):
     arm1.run_until_stalled(speed, duty_limit=duty_limit)
@@ -99,12 +86,6 @@ def rot1stalled(speed, duty_limit = 40):
 def rot2stalled(speed, duty_limit = 40):
     arm2.run_until_stalled(speed, duty_limit=duty_limit)
 
-
-def rotspeed2(angle):
-    arm2.run_angle(1000, angle)    
-    
-def main():
-    joystick_left()
 init()
 speed(900,1100,900,900)
 
