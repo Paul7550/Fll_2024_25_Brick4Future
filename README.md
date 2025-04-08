@@ -1,4 +1,4 @@
-# Code für den Roboter des Teams Brick4Future 2024/25
+# Brick4Future 2024/25
 
 ## Allgemein
 
@@ -24,27 +24,31 @@ Mehr Informationen findest du unter [Brick4Future](https://brick4future.tech)
 
 **`[B]`** lässt dich den rechten Arm Motor so lange drehen bis er gegen einen Wiederstand stößt.
 
-## Taktik
+## Pfade
 
-Wir haben ein Auswahlmenü implementiert das uns verschiede functionen ausführen lässt
+Wir haben ein Auswahlprogramm implementiert mit dem wir unsere verschiedene Programme auswählen kann.
 
-Auserdem haben wir 3 verschiedene aufsätze die wir mit dem Fast-change-system wechseln können
+### Links
 
-A) Kraken 20p -> Fahrrinne wechseln 20p
+A: Fahrrinne wechseln -> Unbekannte Kreatur = 40p
 
-B) Sonarentdeckung 20p -> Planktonprobe 10p
+B: Sonarentdeckung -> Planktonprobe = 30p
 
-C) Programm 2: U-Boot 30p (+10p) -> Dreizack 20p (+10p) -> Anglerfisch 30p -> Meeresbodenprobe 10p -> Wasserprobe 10p -> Korallenknospenschalter 20p
+C: U-Boot -> Anglerfisch -> Meeresbodenprobe -> Wasserprobe -> Korallenknospen = 100p
 
-1. Mast umhauen -> Korallenriff 20p -> Haifisch 20p -> Taucher raushauen 20p -> Mast aufstellen 30p -> Korallenbaum raushauen / mitnehmen
+### Rechts
 
-2. Korallenbaum aufstellen 20p
+1: Mast umhauen -> Korallenriff -> Haifisch -> Taucher raushauen -> Mast aufstellen -> Korallenbaum raushauen / mitnehmen = 90p
 
-3. Taucher auf Korallenriff hängen 20p
+2: Forschungsschiff -> Krabbenturm -> Dreizack = 80p
 
-4. Forschungsschiff 20p -> Krabbenturm 30p -> Dreizack 20p (+10p)
+3: Taucher auf Korallenriff hängen = 20p
 
-5. Haifisch ins Habitat 10p -> Sonarentdeckung 10p -> U-Boot (+10p) -> Krake platzieren 10p
+4: Korallenbaum aufstellen = 20p
+
+5: Haifisch ins Habitat -> Sonarentdeckung -> Krake platzieren = 30p
+
+### Insgesamt
 
 50p Präzisionsmarken
 
