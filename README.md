@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Hier findet Ihr unseren Code den wir für das **D-A-Ch** Finale benutzt haben und unser Controller Script mit dem wir unseren Roboter steuern können.
+Hier findet Ihr unseren Code den wir für das **D-A-CH** Finale benutzt haben und unser Controller Script mit dem wir unseren Roboter steuern können.
 
 Mehr Informationen findest du unter [Brick4Future](https://brick4future.tech)
 
